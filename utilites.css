@@ -1,0 +1,208 @@
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    padding-right: 0px;
+    padding-left: 0px;
+    object-position: 600px;
+ }
+.item{
+    flex: 1;
+    height: 100%;
+}
+.item:nth-child(1){
+    background-image: url(bibir/a.jpg);
+}
+.item:nth-child(2){
+    background-image: url(bibir/i.jpg);
+}
+.item:nth-child(3){
+    background-image: url(bibir/e.jpg);
+}
+.item:nth-child(4){
+    background-image: url(bibir/f.jpg);
+}
+.item:nth-child(5){
+    background-image: url(bibir/g.jpg);
+}
+.item{
+    background-position: center;
+    background-size: cover;
+    transition: flex 0.9s ease-in-out;
+}
+.item:hover{
+    flex: 5;
+}
+.item-text p{
+    color: #333c56;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-right: 400px;
+}
+
+
+.secondary h5{
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+.secondary p{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 40px;
+   color: #333c56;
+}
+.image-container img{
+    width: 600px;
+    height: 600px;
+    margin-left: 230px;
+    position: relative;
+    
+}
+.maincontent-text p{
+    padding-bottom: 40px;
+    font-size: 16px;
+    padding-left: 80px;
+    text-align: justify;
+    
+
+}
+.maincontent-text h2{
+    font-size: 22px;
+    margin-bottom: 35px;
+    padding-left: 75px;
+}
+.k-beauty h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.k-beauty span{
+    color: #f05a8e;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.secondary-img img{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin-left: 350px;
+    margin-top: -395px;
+}
+.secondary-img h5{
+    font-size: 16px;
+    margin-left: 350px;
+    margin-top: 15px;
+
+}
+.secondary-img p{
+    margin-left: 350px;
+    margin-top: 10px;
+    font-size: 13px;
+
+}
+.secondary-img a{
+    margin-left: 350px;
+    margin-top: 13px;
+    font-size: 12px;
+    text-decoration: underline;
+
+}
+
+
+.main-img h5{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.main-img p{
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.main-img a{
+    margin-left: 10px;
+    margin-top: 13px;
+    font-size: 12px;
+    text-decoration: underline;
+
+}
+.third-img img{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin-left: 700px;
+    margin-top: -390px;
+}
+.third-img h5{
+    margin-left: 700px;
+    margin-top: 15px;
+    font-size: 16px;
+
+}
+.third-img p{
+    margin-left: 700px;
+    margin-top: 10px;
+    font-size: 13px;
+
+}
+.third-img a{
+    margin-left: 700px;
+    margin-top: 13px;
+    font-size: 12px;
+    text-decoration: underline;
+
+}
+.gorgeus{
+    background-color: #fdeaf2;
+}
+.beyond img{
+    width: 500px;
+    height: 220px;
+    margin-left: 290px;
+}
+.beyond-text h4{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.beyond-text p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.video-utama video{
+    width: 500px;
+    height: 620px;
+    border-radius: 40%;
+    margin-left: 550px;
+    margin-top: 80px;
+}
+.video-utama img{
+    width: 400px;
+    height: 530px;
+    margin-left: 100px;
+    margin-top: -490px;
+    border-radius: 20%;
+    transition: transform .5s ease-in-out;
+}
+.video-utama img:hover{
+    width: 400px;
+    height: 530px;
+    margin-top: -490px;
+    border-radius: 20%;
+    transform: scale(1.2);
+}
+.video-utama a{
+    cursor: pointer;
+
+}
+.shop-btn i{
+    width: 60px;
+    height: 60px;
+}
+
